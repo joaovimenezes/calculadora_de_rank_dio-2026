@@ -11,7 +11,7 @@ Nesse projeto foram usadas:
 - Função `calculateRecord` para realização do cálculo do saldo de vitórias, com o parâmetro de **vitórias e derrotas** (wins, losses) e estrutura de decisão para erros;
 - Função `getLevel` com o parâmetro de recorde de vitória (finalRecord) e uma estrutura de decisão "if, else if, else" que estabelece o rank de acordo com o intervalo do saldo de vitórias.
 
-Destaca-se a divisão dessas funções para o armazenamento dos valores retornados em váriaveis, identificação de erros e possíbilidade de manutenção e escalabilidade. 
+Destaca-se a divisão dessas funções para o armazenamento dos valores retornados em variáveis, identificação de erros e possibilidade de manutenção e escalabilidade. 
 
 ### Como executar o código
 - Na utilização de uma IDE na máquina, instale o node.js;
