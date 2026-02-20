@@ -1,0 +1,19 @@
+# Desafio de Criação de uma Calculadora de Partidas Rankeadas 🧮
+Projeto do bootcamp "Blip - Lógica de Programação".
+
+### Objetivo
+O objetivo do desafio era a criação de uma calculadora de rank, elaborada com uma função que receberia como parâmetro a quantidade de vitórias e derrotas de um jogador, e depois disso retornasse o resultado para uma variável. Esse cálculo deveria ser feito pela subtração de vitórias - derrotas.
+
+### Elaboração ✅
+Nesse projeto foram usadas:
+
+- Função `getRank` para a centralização das funções e exibição da mensagem, com o papel de uma função main. Ela foi elaborada com os parâmetros de **vitórias e derrotas** (wins, losses);
+- Função `calculateRecord` para realização do cálculo do saldo de vitórias, com o parâmetro de **vitórias e derrotas** (wins, losses) e estrutura de decisão para erros;
+- Função `getLevel` com o parâmetro de recorde de vitória (finalRecord) e uma array `ranks` com o nome e o limite máximo de saldo. Posteriormente, uma estrutura de decisão if verifica o limite e classifica o herói de acordo com a faixa de valor correspondente.
+
+Destaca-se a divisão dessas funções para o armazenamento dos valores retornados em variáveis, identificação de erros e possibilidade de manutenção e escalabilidade. Além disso, a array de ranks foi criada para possibilidade de expansão.
+
+### Como executar o código
+- Certifique-se da instação do Node.js;
+- Chame a função `getRank` com dois parâmetros **NUMÉRICOS** para **VITÓRIAS e DERROTAS** respectivamente;
+- Execute o comando "node index.js" no terminal da sua IDE.
